@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "chrismas";
+    src: url("ThePerfectChristmass.ttf");
+}
+
+body {
+height: 100vh;
+position: relative;
+background-image: url(assets/images/Edit-231.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.navbar {
+    padding: 0 80px 0 0;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 90px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "christmas";
+    color: red;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: #f9f6ee;
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .1s linear;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+    border-bottom: 3px solid red;
+
+}
+
+li.active {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 300px;
+    top: 25%;
+    left: 1%;
+
+  
+}
+
+.slider-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+p {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+
+
+}
+
+h2 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    font-family: "christmas";
+}
+
+.text {
+    color: rgb(11, 7, 7);
+    font-size: 17px;
+
+}
+
+button {
+    background-color: red;
+    border: 1px solid red;
+    font-size: 18px;
+    width: 180px;
+    height: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+    transition: .2s linear;
+}
+
+button:hover {
+    background-color: red;
+    color: #000000;
+}
+
+.active2 {
+    background-color: red;
+    color: #000000;
+}
